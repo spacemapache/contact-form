@@ -1,0 +1,60 @@
+:root {
+  --second-color: hsla(0, 0%, 100%, 0.682);
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  background-color: #261726;
+  max-width: 800px;
+  font-family: monospace;
+}
+
+.container {
+  background-color: #7a85a3;
+  padding: 30px;
+}
+
+h1 {
+  color: var(--second-color);
+  text-transform: capitalize;
+}
+
+form {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#email-input {
+  height: 35px;
+  width: 250px;
+  margin-right: 50px;
+  font-size: 15px;
+}
+
+#name-input {
+  height: 35px;
+  width: 250px;
+  font-size: 15px;
+}
+
+#message-input {
+  margin-top: 30px;
+  height: 100px;
+  width: 500px;
+  font-size: 15px;
+}
+
+button {
+  font-size: 15px;
+  font-weight: bold;
+  color: hsla(0, 0%, 0%, 0.669);
+  height: 40px;
+  width: 90px;
+  background-color: var(--second-color);
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
